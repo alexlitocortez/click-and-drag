@@ -1,0 +1,22 @@
+
+html {
+    background-color: #4169e1;
+    width: 100%;
+}
+
+.items {
+    background-color: #ffffb7;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    margin-left: -275px;
+    width: 600px;
+    height: 500px;
+}
+
+.items.active {
+    background: rgba(255, 255, 255, 0.3);
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+}
